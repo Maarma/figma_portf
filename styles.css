@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    font-family: 'Inter';
+}
+
+@media screen and (max-width: 1440px) {
+    div.example {
+      display: none;
+    }
+  }
+
+a{
+    margin: 25.5px;
+}
+
+a, .intro, h1, h2 {
+    color: white;
+}
+img {
+    width: 100%;
+}
+.navi{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    width: 762.29px;
+    height: auto;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery {
+    padding: 150px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    align-self: center;
+    font-size: 96px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    align-self: center;
+    font-size: 96px;
+}
+.parag1 {
+    
+    margin-left: 340px;
+    margin-right: 340px;
+    font-size: 32px;
+    text-align: center;
+}
+.parag2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 32px;
+    text-align: center;
+}
+.contact {
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.employers {
+    padding: 150px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.textbox {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+.box1 {
+    background-color: #F2F2F2;
+    color: black;
+}
